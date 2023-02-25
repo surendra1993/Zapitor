@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Zapitor.a20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sub.sub_levels" />
+        <activity android:name=".sub.learn.learn2" />
+        <activity android:name=".sub.learn.last" />
+        <activity android:name=".sub.learn.learn3" />
+        <activity android:name=".sub.learn.learn4" />
+        <activity android:name=".sub.learn.learn5" />
+        <activity android:name=".sub.learn.learn8" />
+        <activity android:name=".sub.learn.learn9" />
+        <activity android:name=".sub.learn.learn11" />
+        <activity android:name=".sub.learn.learn7" />
+        <activity android:name=".sub.learn.learn12" />
+        <activity android:name=".sub.learn.learn13" />
+        <activity android:name=".sub.learn.learn14" />
+        <activity android:name=".sub.learn.learn15" />
+        <activity android:name=".sub.learn.learn16" />
+        <activity android:name=".sub.learn.learn17" />
+        <activity android:name=".sub.learn.learn18" />
+        <activity android:name=".sub.learn.learn6" />
+        <activity android:name=".sub.learn.make_10" />
+        <activity android:name=".sub.learn.make_20" />
+        <activity android:name=".sub.learn.make_50" />
+        <activity android:name=".sub.learn.make_100" />
+        <activity android:name=".sub.learn.learn10" />
+        <activity android:name=".sub.learn.level19"></activity>
+    </application>
+
+</manifest>

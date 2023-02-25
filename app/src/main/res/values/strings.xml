@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">2.0</string>
+    <string name="quote">Test your mental math and exercise your brain once a day</string>
+    <string name="lesson1">LESSON 1</string>
+    <string name="lesson2">LESSON 2</string>
+    <string name="lesson3">LESSON 3</string>
+    <string name="lesson4">LESSON 4</string>
+    <string name="lesson5">LESSON 5</string>
+    <string name="lesson6">LESSON 6</string>
+    <string name="lesson7">LESSON 7</string>
+    <string name="lesson8">LESSON 8</string>
+    <string name="lesson9">LESSON 9</string>
+    <string name="lesson10">LESSON 10</string>
+    <string name="lesson11">LESSON 11</string>
+    <string name="lesson12">LESSON 12</string>
+    <string name="lesson13">LESSON 13</string>
+    <string name="lesson14">LESSON 14</string>
+    <string name="lesson15">LESSON 15</string>
+    <string name="lesson16">LESSON 16</string>
+    <string name="lesson17">LESSON 17</string>
+</resources>

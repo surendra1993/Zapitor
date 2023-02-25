@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Zapitor.a20.MainActivity"
+    android:background="@color/halfWhite">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MATHZAP"
+        android:textColor="#34A5FE"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/operators"
+        android:id="@+id/imageView"
+        android:background="#34A5FE"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quote"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/quote"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp">
+        <Button
+            android:id="@+id/add"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_style"
+            android:text="Addition"
+            android:textColor="@color/textBlack"
+            android:textAllCaps="false"
+            android:selectAllOnFocus="true"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            />
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_style"
+            android:text="Subtraction"
+            android:textColor="@color/textBlack"
+            android:selectAllOnFocus="true"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_style"
+            android:text="Multiplication"
+            android:textColor="@color/textBlack"
+            android:textAllCaps="false"
+            android:selectAllOnFocus="true"
+            android:textSize="18dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_style"
+            android:text="Division"
+            android:textColor="@color/textBlack"
+            android:selectAllOnFocus="true"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
